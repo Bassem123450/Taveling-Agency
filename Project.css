@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.rev-section
+{
+    margin: auto;
+    padding: 0 1rem;
+    max-width: 1100px;
+    text-align: center;
+}
+.title
+{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: rgb(50, 50, 50);
+    margin-bottom: 0.5rem;
+    margin-top: 20px;
+}
+.note
+{
+    font-size: 1.1rem;
+    color: rgb(150, 150, 150);
+    font-style: italic;
+}
+.reviews{
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.review{
+    margin: 0 1rem;
+    min-width: 300px;
+    flex: 1;
+}
+.head-review{
+    margin: 1.75rem auto;
+    width: 150px;
+    height: 150px;
+}
+img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 50%;    
+}
+.body-review{
+    background-color: rgb(238, 238, 238);
+    padding: 0.5rem;
+    box-shadow: 1px 1px 5px 1.5px rgb(225, 225, 225);        
+}
+.name-review{
+    font-size: 1.5rem;
+    color: rgb(50, 50,50);
+    margin-bottom: 0.25rem;
+}
+.desc-review{
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    color: rgb(150, 150, 150);
+}
+@media (max-width: 678px){
+    .review{
+        margin-top: 1.5rem;
+    }
+}

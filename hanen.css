@@ -1,0 +1,20 @@
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(241, 241, 241);
+}
+
+.hanen video{
+ 
+    position: relative;
+    left: 17%;
+}
+.center{
+    text-align: center;
+    color: #F53827;
+    font-size: 40px;
+}
+.p{
+  text-align: center;
+}

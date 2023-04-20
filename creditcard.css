@@ -1,0 +1,18 @@
+body{
+    background-color: #efeaeadb;
+    
+}
+button{
+    color: #f53827;
+}
+.padding{
+
+    padding: 5rem !important;
+}
+
+
+
+.form-control:focus {
+   box-shadow: 10px 0px 0px 0px #ffffff !important;
+   border-color: #f53827;
+}
